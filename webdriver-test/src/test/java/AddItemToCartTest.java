@@ -21,6 +21,7 @@ public class AddItemToCartTest {
 
     @BeforeMethod(alwaysRun = true)
     public void browserSetup() {
+        webDriver = new ChromeDriver();
         webDriver.manage().window().maximize();
         webDriverWait = new WebDriverWait(webDriver, Duration.ofSeconds(20));
         webDriver.get(LAPTOP_URL);
