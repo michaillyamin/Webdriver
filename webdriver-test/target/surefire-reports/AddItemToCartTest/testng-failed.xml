@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AddItemToCartTest]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="AddItemToCartTest">
+        <methods>
+          <include name="addProductToCartTest"/>
+          <include name="browserSetup"/>
+          <include name="browserTearDown"/>
+        </methods>
+      </class> <!-- AddItemToCartTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [AddItemToCartTest] -->
